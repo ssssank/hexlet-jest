@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: install
-        run: make install
+        run: npm install
       - name: run test
         run: npx jest
